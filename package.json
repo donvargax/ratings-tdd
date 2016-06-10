@@ -1,0 +1,20 @@
+{
+  "name": "tdd-workshop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "jshint src test",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
+  }
+}
